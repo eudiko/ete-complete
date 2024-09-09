@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link rel="stylesheet" href="signup.css">
+    <style>
+        body {
+            background-image: url('/images/6.jpg');
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: luminosity;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+    <div class="LoginForm">
+        <form id="registrationForm">
+            <h2 id="CreateAccount">Create Account</h2>
+            
+            <div class="inputSection">
+                <label for="fullName" class="inputLabel">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" class="inputBox" required>
+                <span id="fullNameError" class="errorText"></span>
+            </div>
+            
+            <div class="inputSection">
+                <label for="email" class="inputLabel">Email:</label>
+                <input type="email" id="email" name="email" class="inputBox" required>
+                <span id="emailError" class="errorText"></span>
+            </div>
+            
+            <div class="inputSection">
+                <label for="password" class="inputLabel">Password:</label>
+                <input type="password" id="password" name="password" class="inputBox" required>
+                <span id="passwordError" class="errorText"></span>
+            </div>
+            
+            <div class="inputSection">
+                <label for="confirmPassword" class="block text-sm font-medium text-gray-700">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" class="inputBox" required>
+                <span id="confirmPasswordError" class="errorText"></span>
+            </div>
+            
+            <div class="inputSection">
+                <label for="dob" class="inputLabel">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" class="inputBox" required>
+                <span id="dobError" class="errorText"></span>
+            </div>
+            
+            <button type="submit" id="submitBtn" class="btnClass">Register</button>
+        </form>
+
+    <script src="signup.js"></script>
+    <footer>
+        <p>© 2024 BigDawgs. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.LoginForm {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+.LoginForm h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.inputSection {
+    margin-bottom: 15px;
+}
+
+
+.inputLabel {
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.inputBox {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.errorText {
+    color: red;
+    font-size: 12px;
+}
+
+.btnClass {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btnClass:hover {
+    background-color: #45a049;
+}
+
+
+.inputBox:valid {
+    border-color: green;
+}
+
+
+.inputBox:invalid {
+    border-color: red;
+}

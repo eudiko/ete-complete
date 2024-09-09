@@ -1,0 +1,56 @@
+[
+    {
+        "breedId":"B101",
+        "breedName":"GoldenRetriever",
+        "description":"Friendly, Intelligent and Devout.Great family dog",
+        "size":"Large",
+        "lifespan":"10-12 years",
+        "origin":"Scotland",
+        "imageUrl":"https://images.dog.ceo/breeds/retriever-golden/n02099601_7930.jpg"
+    },
+    {
+        "breedId":"B102",
+        "breedName":"BorderCollie",
+        "description":"Friendly, Intelligent.Great shepard dog",
+        "size":"Large",
+        "lifespan":"10-12 years",
+        "origin":"Anglo-Scottish border",
+        "imageUrl":"https://images.dog.ceo/breeds/collie-border/n02106166_1426.jpg"
+    },
+    {
+        "breedId":"B103",
+        "breedName":"Akita",
+        "description":"Friendly, Intelligent and Devout.Great family dog",
+        "size":"Large",
+        "lifespan":"10-12 years",
+        "origin":"Japan",
+        "imageUrl":"https://images.dog.ceo/breeds/akita/Akita_Inu_dog.jpg"
+    },
+    {
+        "breedId":"B104",
+        "breedName":"Dalmatian",
+        "description":"Friendly, Intelligent and Devout.Great family dog",
+        "size":"Large",
+        "lifespan":"10-12 years",
+        "origin":"Croatia",
+        "imageUrl":"https://images.dog.ceo/breeds/dalmatian/cooper1.jpg"
+    },
+    {
+        "breedId":"B105",
+        "breedName":"Husky",
+        "description":"Friendly, Intelligent and Devout.Great family dog",
+        "size":"Large",
+        "lifespan":"10-12 years",
+        "origin":"Siberia",
+        "imageUrl":"https://images.dog.ceo/breeds/husky/n02110185_4522.jpg"
+    },
+    {
+        "breedId":"B106",
+        "breedName":"Indian Spitz",
+        "description":"Friendly, Intelligent and Devout.Great family dog",
+        "size":"Large",
+        "lifespan":"10-12 years",
+        "origin":"India",
+        "imageUrl":"https://images.dog.ceo/breeds/spitz-indian/Indian_Spitz.jpg"
+    }
+  ]
